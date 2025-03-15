@@ -1,0 +1,43 @@
+*{
+    font-size: 18px;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+body{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header,
+#navBar{
+    display: flex;
+
+}
+header{
+    border:solid #000000;
+    width: 90%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 20px;
+}
+li {
+    list-style: none;
+    margin: 25px 20px;
+}
+.navBarItem{
+    padding: 5px 20px;
+    border-radius: 13px;
+    border: solid 2px #0744e9;
+}
+img{
+    width:150px;
+}
