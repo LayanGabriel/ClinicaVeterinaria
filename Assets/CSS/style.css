@@ -41,3 +41,8 @@ li {
 img{
     width:150px;
 }
+p {
+    text-align: center; /* Centraliza o texto do parágrafo */
+    margin: 0 auto; /* Mantém o alinhamento centralizado */
+    width: 50%; /* Define uma largura para melhor visualização */
+}
